@@ -19,7 +19,7 @@ export default function TabsDefault() {
 
   useEffect(() => {
     setAnimesByPeriod('today');
-  }, [escolha]);
+  },[]);
 
   return (
     <>
