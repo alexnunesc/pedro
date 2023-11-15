@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Listviews from "../components/ListViews";
 import { mockAnimesViews } from "../utils/data";
 
@@ -16,6 +16,10 @@ export default function TabsDefault() {
     setAnimes(sortByViews(period));
     setEscolha(period);
   };
+
+  useEffect(() => {
+    setAnimesByPeriod('today');
+  }, [escolha]);
 
   return (
     <>
