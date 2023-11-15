@@ -8,7 +8,7 @@ export default function Card({data}) {
 
   return (
     <>
-      <div className="border-2 border-black bg-white flex-1 rounded-md flex flex-row border-3 w-full gap-2 min-w-[360px] relative">
+      <div className=" bg-white flex-1 rounded-md flex flex-row border-3 w-full gap-2 min-w-[360px] relative">
         <img src="anime.svg" alt="" className='relative z-0' />
         <div className="absolute top-95 right-90 bg-customGreen w-auto h-6 p-1 flex justify-center items-center rounded-md">
           <span>

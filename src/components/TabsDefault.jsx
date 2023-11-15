@@ -39,7 +39,7 @@ export default function TabsDefault() {
           Month
         </button>
       </div>
-      <div className="border-2 border-black p-1 gap-2 flex flex-col">
+      <div className=" p-1 gap-2 flex flex-col">
         {animes?.slice(0, 9).map((data, i) => (
           <Listviews key={i} data={data} period={escolha} index={i} />
         ))}
